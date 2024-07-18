@@ -6,6 +6,9 @@ public class CarRacer {
 
     public void startUp() {
         this.myCar.startUp();
+    }
 
+    public void stopAccelator() {
+        this.myCar.go();
     }
 }

@@ -24,15 +24,16 @@ public class Application1 {
 
         int num = 0;
         for (int i = 0; i < iArr1.length; i++){          // 1차원 배열을 고르는 for 문
-            System.out.println("iArr1[i]: " + iArr1[i]); // 관리되는 1차원 배열의 주소값
+//            System.out.println("iArr1[i]: " + iArr1[i]); // 관리되는 1차원 배열의 주소값
             for (int j = 0; j < iArr1[i].length; j++){   // 선택한 1차원 배열을 다루는 for 문
                 iArr1[i][j] = num++;
+                System.out.print(iArr1[i][j] + "\t");
             }
-            System.out.println(Arrays.toString(iArr1[i]));
+//            System.out.println(Arrays.toString(iArr1[i]));
         }
 
         /* 설명. Arrays.toString()은 1차원 배열만 확인 가능하다. */
-        System.out.println("2차원 배열도 한 번에 확인 될까? " + Arrays.toString(iArr1));
+//        System.out.println("2차원 배열도 한 번에 확인 될까? " + Arrays.toString(iArr1));
 
     }
 }

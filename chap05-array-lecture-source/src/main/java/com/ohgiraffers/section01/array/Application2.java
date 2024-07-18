@@ -26,7 +26,7 @@ public class Application2 {
         System.out.println("cArr의 10진수 주소: " + cArr.hashCode());
 
         cArr = null;
-        System.out.println("null을 참조할 시: " + cArr.hashCode());
+        // System.out.println("null을 참조할 시: " + cArr.hashCode());
 
     }
 }

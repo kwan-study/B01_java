@@ -11,4 +11,7 @@ public class Car {
             System.out.println("시동을 걸었습니다. 부릉부릉");
         }
     }
+    public void go() {
+
+    }
 }
